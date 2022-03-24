@@ -15,6 +15,12 @@ const Sidebar = () => {
     <nav className={classNames(style['nav'], openSidebar)}>
       <div className={style['brand-wrapper']}>
         <img src={logo} alt='brand-logo' />
+
+        <button
+          className={style['close-wrapper']}
+          onClick={() => toggleSidebar(!sidebarOpen)}>
+          <img src={close} alt='' />
+        </button>
       </div>
 
       <div className={classNames(style['top-nav'], style['links-wrapper'])}>
