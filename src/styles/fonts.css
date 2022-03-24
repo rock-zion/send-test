@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../assets/fonts/Gilroy-SemiBold.ttf');
+  src: local('Gilroy SemiBold'), local('Gilroy-SemiBold'),
+    url('../assets/fonts/Gilroy-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
