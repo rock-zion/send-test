@@ -1,0 +1,14 @@
+:root {
+  --primary: #0747a6;
+  --alt-bg: #f2f4f7;
+  --stroke: #e4e6ea;
+  --grey-1: #78797a;
+  --grey-2: #e9ecf1;
+  --grey-3: #81868c;
+  --grey-4: #f9fafc;
+  --grey-5: #737a91;
+  --black: #303030;
+  --yellow: #f7c244;
+  --green: #5cc685;
+  --gilroy-semi-bold: 'Gilroy-SemiBold', 'Inter', sans-serif;
+}
