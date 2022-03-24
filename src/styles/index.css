@@ -12,3 +12,36 @@
   --green: #5cc685;
   --gilroy-semi-bold: 'Gilroy-SemiBold', 'Inter', sans-serif;
 }
+/* Utilities */
+
+.bg-primary {
+  background: var(--primary);
+}
+
+.text-white {
+  color: white;
+}
+
+.flex {
+  display: flex;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.text-green {
+  color: var(--green);
+}
+
+.text-primary {
+  color: var(--primary);
+}
+
+.text-yellow {
+  color: var(--yellow);
+}
+
+.text-grey {
+  color: var(--grey-3);
+}
