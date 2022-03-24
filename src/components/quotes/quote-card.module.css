@@ -1,0 +1,106 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-items: center;
+  height: 78px;
+  margin-bottom: 24px;
+}
+
+.left-quote {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 37.13%;
+}
+
+.quote-detail {
+  display: flex;
+  align-items: center;
+  margin-bottom: 9px;
+}
+
+.shipment-id {
+  color: var(--primary);
+  font-family: var(--gilroy-semi-bold);
+  font-size: 16px;
+}
+
+.web-import {
+  display: flex;
+  align-items: center;
+  font-size: 11px;
+  font-family: var(--gilroy-semi-bold);
+  font-family: 300;
+  border: 1px solid var(--grey-3);
+  height: 20px;
+  width: fit-content;
+  padding: 0 13px;
+  color: var(--grey-3);
+  border-radius: 12px;
+}
+
+.cargo {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #333333;
+}
+
+.cargo::before {
+  content: '';
+  display: block;
+  width: 4.45px;
+  height: 4px;
+  border-radius: 100%;
+  background-color: var(--black);
+  margin: 0 11.12px;
+}
+
+.origin,
+.destination {
+  display: flex;
+  flex-direction: column;
+}
+
+.destination {
+  margin-right: 7.37%;
+}
+
+.origin .location,
+.destination .location {
+  font-family: var(--gilroy-semi-bold);
+  margin-bottom: 7px;
+  color: var(--black);
+}
+
+.origin .date,
+.destination .date {
+  font-size: 14px;
+  color: var(--grey-3);
+}
+
+.right-quote {
+  width: 43.32%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cost-wrapper {
+  flex: 1;
+  display: flex;
+  justify-content: space-around;
+}
+
+.cost-wrapper .cost {
+  font-weight: 600;
+  color: var(--black);
+  display: block;
+  margin-right: 9.06%;
+}
+
+.status {
+  text-transform: capitalize;
+  font-family: var(--gilroy-semi-bold);
+}
