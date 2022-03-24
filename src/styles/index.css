@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap');
+
 :root {
   --primary: #0747a6;
   --alt-bg: #f2f4f7;
@@ -12,6 +14,32 @@
   --green: #5cc685;
   --gilroy-semi-bold: 'Gilroy-SemiBold', 'Inter', sans-serif;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+button,
+a {
+  cursor: pointer;
+}
+
+button {   
+  border: none;
+  background: transparent;
+}
+
+.app-main {
+  margin-left: 226px;
+  width: calc(100vw - 226px);
+  position: relative;
+  margin-bottom: 100px;
+  /* padding: 0 3.11%; */
+}
+
 /* Utilities */
 
 .bg-primary {
@@ -45,6 +73,7 @@
 .text-grey {
   color: var(--grey-3);
 }
+
 .skeleton {
   background: linear-gradient(
     90deg,
@@ -62,5 +91,15 @@
   }
   to {
     background-position: 100% 0;
+  }
+}
+
+/* Responsiveness */
+
+@media screen and (max-width: 640px) {
+  .app-main {
+    margin-left: 0;
+    width: 100vw;
+    /* padding: 0 3.11%; */
   }
 }
